@@ -1,0 +1,230 @@
+/* ===========================
+   LARGE TABLETS
+=========================== */
+
+@media (max-width:1200px){
+
+.container{
+    width:92%;
+}
+
+.hero-wrapper{
+    gap:40px;
+}
+
+.hero-content h1{
+    font-size:54px;
+}
+
+.footer-top{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+/* ===========================
+   TABLETS
+=========================== */
+
+@media (max-width:992px){
+
+.hero{
+    padding:130px 0 70px;
+}
+
+.hero-wrapper{
+    grid-template-columns:1fr;
+    text-align:center;
+}
+
+.hero-content{
+    align-items:center;
+}
+
+.hero-content p{
+    max-width:700px;
+}
+
+.hero-search{
+    max-width:100%;
+}
+
+.hero-stats{
+    justify-content:center;
+}
+
+.hero-image{
+    margin-top:50px;
+}
+
+.category-grid,
+.recipe-grid,
+.why-grid,
+.stats-grid,
+.testimonial-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.steps{
+    grid-template-columns:1fr;
+}
+
+.footer-top{
+    grid-template-columns:1fr 1fr;
+}
+
+.nav-links,
+.nav-buttons{
+    display:none;
+}
+
+.menu-toggle{
+    display:flex;
+}
+
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media (max-width:768px){
+
+section{
+    padding:70px 0;
+}
+
+.hero{
+    padding-top:120px;
+}
+
+.hero-content h1{
+    font-size:42px;
+}
+
+.hero-content p{
+    font-size:16px;
+}
+
+.hero-buttons{
+    flex-direction:column;
+    width:100%;
+}
+
+.hero-buttons .btn{
+    width:100%;
+}
+
+.hero-search{
+    height:60px;
+}
+
+.hero-search input{
+    font-size:15px;
+}
+
+.hero-search button{
+    width:60px;
+}
+
+.hero-stats{
+    flex-direction:column;
+    gap:25px;
+}
+
+.section-heading h2{
+    font-size:34px;
+}
+
+.category-grid,
+.recipe-grid,
+.why-grid,
+.stats-grid,
+.testimonial-grid{
+    grid-template-columns:1fr;
+}
+
+.recipe-content h3{
+    font-size:22px;
+}
+
+.footer-top{
+    grid-template-columns:1fr;
+    text-align:center;
+}
+
+.footer-about p{
+    margin:auto;
+    margin-top:20px;
+}
+
+.social-icons{
+    justify-content:center;
+}
+
+.logo span{
+    font-size:24px;
+}
+
+.logo-icon{
+    width:48px;
+    height:48px;
+}
+
+.cta-box{
+    padding:50px 25px;
+}
+
+.cta-box h2{
+    font-size:30px;
+}
+
+.cta-box p{
+    font-size:15px;
+}
+
+}
+
+/* ===========================
+   SMALL MOBILE
+=========================== */
+
+@media (max-width:480px){
+
+.container{
+    width:94%;
+}
+
+.hero-content h1{
+    font-size:34px;
+}
+
+.section-heading h2{
+    font-size:28px;
+}
+
+.btn{
+    padding:12px 18px;
+    font-size:14px;
+}
+
+.recipe-content{
+    padding:20px;
+}
+
+.feature-card,
+.step-card,
+.stat-card,
+.testimonial-card{
+    padding:28px 20px;
+}
+
+.footer{
+    padding:60px 0 20px;
+}
+
+.footer-bottom p{
+    font-size:13px;
+}
+
+}

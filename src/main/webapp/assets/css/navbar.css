@@ -1,0 +1,172 @@
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1000;
+    background:rgba(255,255,255,.75);
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+    border-bottom:1px solid rgba(255,255,255,.4);
+    transition:.35s ease;
+}
+
+.nav-container{
+    height:85px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+/* ===========================
+   LOGO
+=========================== */
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:14px;
+}
+
+.logo-icon{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    background:linear-gradient(135deg,#FFD54F,#F4C542);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 10px 25px rgba(244,197,66,.35);
+    flex-shrink:0;
+}
+
+.logo-icon i{
+    color:#2B2B2B;
+    font-size:22px;
+}
+
+.logo span{
+    font-size:30px;
+    font-weight:700;
+    color:var(--text-dark);
+    letter-spacing:.5px;
+}
+
+/* ===========================
+   NAV LINKS
+=========================== */
+
+.nav-links{
+    display:flex;
+    align-items:center;
+    gap:34px;
+}
+
+.nav-links li{
+    position:relative;
+}
+
+.nav-links a{
+    color:var(--text-dark);
+    font-size:15px;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:var(--primary-dark);
+}
+
+.nav-links a::after{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:-8px;
+    width:0;
+    height:3px;
+    border-radius:10px;
+    background:var(--primary);
+    transition:.3s;
+}
+
+.nav-links a:hover::after{
+    width:100%;
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.nav-buttons{
+    display:flex;
+    align-items:center;
+    gap:14px;
+}
+
+.nav-buttons .btn{
+    min-width:120px;
+}
+
+/* ===========================
+   MENU ICON
+=========================== */
+
+.menu-toggle{
+    width:48px;
+    height:48px;
+    border-radius:12px;
+    display:none;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    transition:.3s;
+    background:#fff;
+    box-shadow:var(--shadow-sm);
+}
+
+.menu-toggle i{
+    font-size:22px;
+    color:var(--text-dark);
+}
+
+.menu-toggle:hover{
+    background:var(--primary);
+}
+
+/* ===========================
+   STICKY EFFECT
+=========================== */
+
+.navbar.scrolled{
+    background:rgba(255,255,255,.92);
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+}
+
+/* ===========================
+   ACTIVE LINK
+=========================== */
+
+.nav-links .active{
+    color:var(--primary-dark);
+    font-weight:600;
+}
+
+.nav-links .active::after{
+    width:100%;
+}
+
+/* ===========================
+   SMALL ANIMATION
+=========================== */
+
+.logo-icon{
+    transition:.3s;
+}
+
+.logo:hover .logo-icon{
+    transform:rotate(-10deg) scale(1.05);
+}

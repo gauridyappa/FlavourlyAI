@@ -1,0 +1,44 @@
+:root {
+
+    /* Primary Colors */
+    --primary: #F4C542;
+    --primary-dark: #E6B800;
+    --primary-light: #FFF4CC;
+
+    /* Background Colors */
+    --background: #FFFDF7;
+    --surface: #FFFFFF;
+    --surface-light: #FCFCFC;
+
+    /* Text Colors */
+    --text-dark: #2B2B2B;
+    --text-light: #666666;
+    --text-white: #FFFFFF;
+
+    /* Border */
+    --border: #ECECEC;
+
+    /* Status Colors */
+    --success: #2E7D32;
+    --danger: #D32F2F;
+    --warning: #F9A825;
+    --info: #1976D2;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px rgba(0,0,0,.05);
+    --shadow-md: 0 8px 20px rgba(0,0,0,.08);
+    --shadow-lg: 0 18px 40px rgba(0,0,0,.12);
+
+    /* Border Radius */
+    --radius-sm: 8px;
+    --radius-md: 15px;
+    --radius-lg: 25px;
+    --radius-xl: 40px;
+
+    /* Transition */
+    --transition: all .3s ease;
+
+    /* Container */
+    --container: 1300px;
+
+}

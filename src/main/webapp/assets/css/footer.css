@@ -1,0 +1,89 @@
+/* ===========================
+   FOOTER
+=========================== */
+
+.footer{
+    background:#222;
+    color:#fff;
+    padding:80px 0 25px;
+}
+
+.footer-top{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr 1fr;
+    gap:60px;
+    margin-bottom:50px;
+}
+
+.footer-about p{
+    margin-top:25px;
+    color:#cfcfcf;
+    line-height:1.9;
+    font-size:15px;
+    max-width:420px;
+}
+
+.footer .logo span{
+    color:#fff;
+}
+
+.footer-links h3,
+.footer-social h3{
+    font-size:22px;
+    margin-bottom:25px;
+}
+
+.footer-links ul{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+}
+
+.footer-links a{
+    color:#cfcfcf;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+    color:var(--primary);
+    padding-left:6px;
+}
+
+.social-icons{
+    display:flex;
+    gap:15px;
+    margin-top:20px;
+}
+
+.social-icons a{
+    width:48px;
+    height:48px;
+    border-radius:50%;
+    background:#333;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:.3s;
+}
+
+.social-icons a:hover{
+    background:var(--primary);
+    color:#222;
+    transform:translateY(-5px);
+}
+
+.social-icons i{
+    font-size:18px;
+}
+
+.footer-bottom{
+    border-top:1px solid rgba(255,255,255,.12);
+    margin-top:30px;
+    padding-top:25px;
+    text-align:center;
+}
+
+.footer-bottom p{
+    color:#cfcfcf;
+    font-size:15px;
+}
